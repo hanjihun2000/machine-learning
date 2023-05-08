@@ -1,21 +1,25 @@
-# Self-study Machine Learning
+# machine learning
 
-## About the book that I have studied
+This repo is all about my study on machine learning. :computer:
 
-The book, **Python Machine Learning (3rd Edition)** or **머신러닝 교과서 (개정 3판)** in Korean, lets you introduce the mathematical theories and computational algorithms behind the models by using a lot of practical examples and step-by-step tutorials on each chapter.
-All the examples and tutorials in this book are based on the [Python](https://python.org/) language with efficient machine learning libraries and frameworks such as [scikit-learn](https://scikit-learn.org/stable/) and [TensorFlow](https://www.tensorflow.org/).
-You can find my self-studied chapter notes (written in Jupyter Notebook, source code referenced from the book) under the [notes folder](./notes).
-If you are interested to study on your own with this book, visit the official book Github repository links below.
+## guide
 
-|Book Repo|Link|
-|---|---|   
-|Korean Version|https://github.com/gilbutITbook/080223|
-|English Version|https://github.com/rasbt/python-machine-learning-book-3rd-edition|
+Python Machine Learning (Korean translated version known as 머신러닝 교과서 개정 3판) is a well-known, complete guide to machine learning and deep learning with [Python](https://python.org/). It also lets you introduce the mathematical theories and algorithms behind the models by using a lot of practical examples and step-by-step tutorials.
+All the examples and tutorials are based on the Python language with efficient machine learning libraries and frameworks such as [scikit-learn](https://scikit-learn.org/stable/) and [TensorFlow](https://www.tensorflow.org/).
+You can find all the summarized chapter notes (written in Jupyter Notebook) under the [guide](./guide/) folder.
+If you are interested to learn machine learning on your own with this book, visit the GitHub repository links below for more information including the supplementary example source codes.
 
-## About the tutorials that I have studied
+||GitHub Repo Link|
+|---|---|
+|English Version|author: https://github.com/rasbt/python-machine-learning-book-3rd-edition|
+|Korean Version|book: https://github.com/gilbutITbook/080223 <br> author: https://github.com/rickiepark/python-machine-learning-book-3rd-edition|
 
-My hands-on experience in TensorFlow tutorials are all under the [tutorials folder](./tutorials).
-[TensorFlow](https://www.tensorflow.org/) utilizes [Keras](https://keras.io/), which built on top of TensorFlow version 2, that enable beginners to easily build neural network models by adding built-in layers into the Keras sequential model.
-For advanced experts, Keras provides APIs for functional and subclassing models to support more flexible model creation and customization.
-For more information about Keras models, visit [Keras Docs](https://keras.io/api/).
-If you are interested to learn and explore more in-depth contents about TensorFlow by yourself, visit [TensorFlow tutorials page](https://www.tensorflow.org/tutorials) or [TensorFlow GitHub](https://github.com/tensorflow/docs).
+
+## tutorials
+
+All my hands-on tutorials are under the [tutorials](./tutorials) folder.
+Most of my notebooks are directly from [TensorFlow tutorials](https://www.tensorflow.org/tutorials) and [Keras examples](https://keras.io/examples/) where they provide tons of informative tutorials for both machine learning beginners and experts to have a deep dive into the world of AI through their impressive open source machine learning framework.
+TensorFlow utilizes [Keras](https://keras.io/), which is built on top of TensorFlow version 2, that enables beginners to easily build deep neural networks by adding built-in layers into the Keras sequential model.
+For advanced machine learning experts, Keras provides efficient APIs for functional and subclassing models to support more flexible model creation and even customization.
+For more information and documentation about Keras, visit [Keras](https://keras.io/api/).
+In addition, if you are interested to learn and explore more in-depth contents about TensorFlow by yourself, visit [TensorFlow tutorials](https://www.tensorflow.org/tutorials) or [TensorFlow GitHub](https://github.com/tensorflow/docs).
