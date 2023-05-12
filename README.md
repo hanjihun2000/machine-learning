@@ -15,9 +15,9 @@ If you are interested to learn machine learning on your own with this book, visi
 |Korean Version|book: https://github.com/gilbutITbook/080223 <br> author: https://github.com/rickiepark/python-machine-learning-book-3rd-edition|
 
 
-## tutorials
+## tutorial
 
-All my hands-on tutorials are under the [tutorials](./tutorials) folder.
+All my hands-on tutorials are under the [tutorial](./tutorial) folder.
 Most of my notebooks are directly from [TensorFlow tutorials](https://www.tensorflow.org/tutorials) and [Keras examples](https://keras.io/examples/) where they provide tons of informative tutorials for both machine learning beginners and experts to have a deep dive into the world of AI through their impressive open source machine learning framework.
 TensorFlow utilizes [Keras](https://keras.io/), which is built on top of TensorFlow version 2, that enables beginners to easily build deep neural networks by adding built-in layers into the Keras sequential model.
 For advanced machine learning experts, Keras provides efficient APIs for functional and subclassing models to support more flexible model creation and even customization.
