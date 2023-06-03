@@ -1,2 +1,5 @@
 # ignore auto-generated checkpoints
 .ipynb_checkpoints
+
+# ignore auto-generated .vscode
+.vscode
