@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def plot_decision_boundary(ax, x, y, classifier, step=0.02):
     markers = ['s', 'x', 'o', '^', 'v']
     colors = ['red', 'blue', 'lightgreen', 'gray', 'cyan']
-    cmap = ListedColormap(colors=colors[:len(np.unique(y))])
+    cmap = ListedColormap(colors=colors[:len(np.unique(y))], array=None)
     x1_min, x1_max = x[:, 0].min()-1, x[:, 0].max()+1
     x2_min, x2_max = x[:, 1].min()-1, x[:, 1].max()+1
     x1_coordinates, x2_coordinates = np.meshgrid(np.arange(x1_min, x1_max, step), np.arange(x2_min, x2_max, step))
@@ -30,3 +30,8 @@ def visualize_decision_boundary(x_train, y_train, x_test, y_test, classifier, xl
     plt.title("test", loc='center')
     plt.legend(loc="best")
     plt.show()
+
+def lin_regplot(x, y, model):
+    plt.scatter(x, y, c='steelblue', edgecolors='white', s=70)
+    plt.plot(x, model.predict(x), color='black', lw=2)
+    return None
